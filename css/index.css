@@ -109,6 +109,11 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: color 3s;
+}
+
+.middle-content .boxes .box:hover{
+    color: red;
 }
 
 .box.box1{
@@ -282,6 +287,11 @@ div span{
     padding: 2%;
     width: 35%;
     text-align: center;
+    transition: font-size 3s;
+}
+
+div span:hover{
+    font-size: 200%;
 }
 
 .worktogether{
