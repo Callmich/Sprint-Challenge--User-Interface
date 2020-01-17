@@ -207,3 +207,14 @@ footer nav a {
 
 /* css for about page starts here */
 
+.jumboaboutpic{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 2% 0%;
+}
+
+.topsection{
+    padding: 2% 0%;
+    border-bottom: black 1px dashed;
+}
