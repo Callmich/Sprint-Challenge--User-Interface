@@ -215,6 +215,56 @@ footer nav a {
 }
 
 .topsection{
-    padding: 2% 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
     border-bottom: black 1px dashed;
 }
+
+.firsttwo{
+    display: flex;
+    justify-content: space-around;
+    padding: 2% 0%;
+}
+
+.strategy{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    border-bottom: black 1px dashed;
+    padding-bottom: 2%;
+}
+
+.howwework{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    border-bottom: black 1px dashed;
+    padding-bottom: 2%;
+}
+
+.secondtwo{
+    display: flex;
+    justify-content: space-around;
+    padding: 2% 0%;
+}
+
+.placeswework{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    border-bottom: black 1px dashed;
+    padding-bottom: 2%;
+}
+
+.collaboration{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    border-bottom: black 1px dashed;
+    padding-bottom: 2%;
+}
+
