@@ -144,3 +144,24 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.headnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 800px;
+    margin: 0 auto;
+    padding: 2% 0%;
+
+}
+.headnav a{
+    color: black;
+    text-decoration: none;
+}
+
+.jumbopic{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 2% 0%;
+}
