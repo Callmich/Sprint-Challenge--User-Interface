@@ -191,8 +191,14 @@ footer nav a {
     width: 800px;
     margin: 0 auto;
     padding: 2% 0%;
-
 }
+
+.navdiv{
+    display:flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
 .headnav a{
     color: black;
     text-decoration: none;
@@ -273,8 +279,8 @@ footer nav a {
 div span{
     border-radius: 5px;
     border: 2px black solid;
-    padding: 1%;
-    width: 30%;
+    padding: 2%;
+    width: 35%;
     text-align: center;
 }
 
@@ -283,3 +289,5 @@ div span{
     padding-left: 3%;
     padding-bottom: 3%;
 }
+
+
