@@ -104,12 +104,56 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: color 3s;
+}
+
+.middle-content .boxes .box:hover{
+    color: red;
+}
+
+.box.box1{
+    background: teal;
+}
+
+.box.box2{
+    background: gold;
+}
+
+.box.box3{
+    background: cadetblue;
+}
+
+.box.box4{
+    background: coral;
+}
+
+.box.box5{
+    background: crimson;
+}
+
+.box.box6{
+    background: forestgreen;
+}
+
+.box.box7{
+    background: darkorchid;
+}
+
+.box.box8{
+    background: hotpink;
+}
+
+.box.box9{
+    background: indigo;
+}
+
+.box.box10{
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -144,3 +188,116 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.headnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 800px;
+    margin: 0 auto;
+    padding: 2% 0%;
+}
+
+.navdiv{
+    display:flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.headnav a{
+    color: black;
+    text-decoration: none;
+}
+
+.jumbopic{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 2% 0%;
+}
+
+/* css for about page starts here */
+
+.jumboaboutpic{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 2% 0%;
+}
+
+.topsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-bottom: black 1px dashed;
+}
+
+.firsttwo{
+    display: flex;
+    justify-content: space-around;
+    padding: 2% 0%;
+}
+
+.strategy{
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    width: 45%;
+    border-bottom: black 1px dashed;
+    padding-bottom: 2%;
+}
+
+.howwework{
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    width: 45%;
+    border-bottom: black 1px dashed;
+    padding-bottom: 2%;
+}
+
+.secondtwo{
+    display: flex;
+    justify-content: space-around;
+    padding: 2% 0%;
+}
+
+.placeswework{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    border-bottom: black 1px dashed;
+    padding-bottom: 2%;
+}
+
+.collaboration{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    border-bottom: black 1px dashed;
+    padding-bottom: 2%;
+}
+
+div span{
+    border-radius: 5px;
+    border: 2px black solid;
+    padding: 2%;
+    width: 35%;
+    text-align: center;
+    transition: font-size 3s;
+}
+
+div span:hover{
+    font-size: 200%;
+}
+
+.worktogether{
+    padding-top: 2%;
+    padding-left: 3%;
+    padding-bottom: 3%;
+}
+
+/* Self study questions answered in the readme.md section */
